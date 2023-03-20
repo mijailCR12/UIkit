@@ -1,0 +1,227 @@
+ #navbar{
+    background-color: black;
+}
+
+#textNavbar{
+    color: white;
+}
+#line{
+    border-top: 7px solid #000;
+    padding-top: 23px;
+    
+}
+#lineRed{
+    border-top: 7px solid #f42535;
+    padding-top: 23px;
+    
+}
+#TextCentro{
+    color: #f42535;
+    width: 448px;
+    font-size: 16px;
+}
+#centro{
+    width: 590px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+#lateral{
+    width: 259px;
+
+}
+#title1{
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Arnhem",Times,Courier,serif;
+font-weight: 500;
+line-height: 28px;
+color: #000;
+}
+
+#titleW{
+    margin-top: 14px;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Arnhem",Times,Courier,serif;
+font-weight: 500;
+line-height: 28px;
+color: #000;
+margin-bottom: 0;
+}
+
+#title2{
+    font-family: "calibre",Helvetica,Arial,sans-serif;
+font-size: 17px;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+width: 100%;
+text-align: center;
+padding: 24px 0 29px 0;
+display: block;
+color: #000;
+
+border-top: 7px solid #000;
+padding-top: 23px;
+width: 1160px;
+
+margin:0 auto -37px;
+}
+
+#title3{
+    font-family: Helvetica,Arial,sans-serif;
+font-size: 15px;
+line-height: 25px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 0.06em;
+color: #f42535;
+margin-top: 15px;
+margin-bottom: 5px;
+}
+#title4{
+    font-family: Helvetica,Arial,sans-serif;
+font-size: 15px;
+line-height: 25px;
+font-weight: 500;
+letter-spacing: 0.06em;
+color: #f42535;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-bottom: 46px;
+}
+#title1:hover{
+    color: #f42535;
+}
+#titleCentro{
+    font-size: 47px;
+    font-weight: normal;
+    font-family: "Arnhem",Times,Courier,serif;
+font-weight: 500;
+line-height: 72px;
+color: #000;
+margin-top: 0px;
+}
+#title5{
+font-weight: normal;
+font-family: "Arnhem",Times,Courier,serif;
+font-weight: 100;
+line-height: 46px;
+color: #000;
+margin-top: -20px;
+font-size: 51px;
+}
+
+
+#titleNavbar li a{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Arnhem",Times,Courier,serif;
+line-height: 28px;
+color: white;
+}
+
+#contenedor2{
+    margin-right: -23px;
+    margin-bottom: 72px;
+}
+#contenedor2 div {
+    width: 200px;
+    margin-right: 23px;
+}
+
+#contenedor3 div {
+    width: 259px;
+    margin-right: 23px;
+}
+
+#imgCover{
+    display: inline-block;
+  
+  float:left;
+  background-image: url('https://s3.amazonaws.com/loa-production-23ffs35gui41a/writers/image_weeklies/000/000/157/home_extra/updike_john_WD_wotw.jpg?1447875305');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  width:360px;
+  height:520px;
+}
+
+#contenedor2 div h3{
+    font-family: Times,Courier,serif;
+font-size: 20px;
+line-height: 25px;
+font-weight: 200;
+margin-top: 20px;
+}
+
+#featureText p{
+    margin: 7px 0;
+padding: 0 24px 0 24px;
+line-height: 21px;
+position: relative;
+border-left: 1px solid #000;
+border-right: 1px solid #000;
+background-color: #fff;
+font-family: "Arnhem",Times,Courier,serif;
+color: #000;
+font-size: 28px;
+font-weight: 500;
+
+margin-bottom: 57px;
+
+}
+
+#title6{
+    font-family: "calibre",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0 29px 0;
+    display: block;
+    color: #000;
+    
+    border-top: 7px solid #000;
+    padding-top: 23px;
+    width: 1160px;
+    
+    margin:0 auto -37px;
+}
+
+#text6 div div {
+    color: #000;
+    font-family: "Calibre",Helvetica,Arial,sans-serif;
+    letter-spacing: 0;
+    font-size: 15px;
+line-height: 25px;
+font-weight: 500;
+}
+
+#Link{
+    text-decoration: underline;
+    color: #000;
+}
+
+#link:hover{
+    color: #f42535;
+}
+
+#form{
+        font-family: "calibre",Helvetica,Arial,sans-serif;
+        font-size: 17px;
+        line-height: 25px;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        width: 100%;
+        text-align: center;
+        padding: 24px 0 29px 0;
+        display: block;
+        color: #000;
+        margin:0 auto -37px;
+    
+}
