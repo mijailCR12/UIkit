@@ -169,10 +169,18 @@ font-family: "Arnhem",Times,Courier,serif;
 color: #000;
 font-size: 28px;
 font-weight: 500;
-
 margin-bottom: 57px;
 
 }
+
+#featureText{
+    margin: 40px 0 0 0;
+}
+
+#featureText p:hover{
+    color: #f42535;
+}
+
 
 #title6{
     font-family: "calibre",Helvetica,Arial,sans-serif;
@@ -207,7 +215,7 @@ font-weight: 500;
     color: #000;
 }
 
-#link:hover{
+#Link:hover{
     color: #f42535;
 }
 
@@ -224,4 +232,52 @@ font-weight: 500;
         color: #000;
         margin:0 auto -37px;
     
+}
+
+#columns div h4{
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 0;
+}
+#columns div ul li{
+    font-family: Helvetica,Arial,sans-serif;
+font-size: 15px;
+line-height: 25px;
+font-weight: 500;
+line-height: 20px;
+color: #777;
+letter-spacing: 0;
+}
+
+#columns div ul li:hover{
+    color: #f42535;
+    
+}
+#columns div h4{
+    font-family: Helvetica,Arial,sans-serif;
+font-size: 15px;
+line-height: 0;
+font-weight: 500;
+line-height: 0;
+color: #000;
+letter-spacing: 0;
+}
+#columns div h4:hover{
+color: #f42535;
+}
+
+#footer{
+    background-color: #000;
+}
+
+#footer div ul li{
+    color:#777;
+}
+
+
+#footer div ul li:hover{
+    color:#f42535;
 }
