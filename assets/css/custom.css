@@ -49,6 +49,10 @@ line-height: 28px;
 color: #000;
 margin-bottom: 0;
 }
+#titleW:hover{
+    
+color: #f42535;
+}
 
 #title2{
     font-family: "calibre",Helvetica,Arial,sans-serif;
@@ -92,6 +96,9 @@ margin-top: 0px;
 margin-bottom: 0px;
 padding-bottom: 46px;
 }
+#title4:hover{
+color: #000;
+}
 #title1:hover{
     color: #f42535;
 }
@@ -104,6 +111,10 @@ line-height: 72px;
 color: #000;
 margin-top: 0px;
 }
+
+#TextCentro{
+    color: #000;
+}
 #title5{
 font-weight: normal;
 font-family: "Arnhem",Times,Courier,serif;
@@ -114,8 +125,24 @@ margin-top: -20px;
 font-size: 51px;
 }
 
+#title5:hover{
+    color: #f42535;
+}
+
 
 #titleNavbar li a{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Arnhem",Times,Courier,serif;
+line-height: 28px;
+color: white;
+}
+
+#titleNavbar li a:hover{
+    
+color: #f42535;
+}
+#titleP{
     font-size: 18px;
     font-weight: normal;
     font-family: "Arnhem",Times,Courier,serif;
@@ -156,6 +183,10 @@ line-height: 25px;
 font-weight: 200;
 margin-top: 20px;
 }
+#contenedor2 div h3:hover{
+    color: #f42535;
+}
+
 
 #featureText p{
     margin: 7px 0;
