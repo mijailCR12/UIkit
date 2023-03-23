@@ -1,10 +1,10 @@
- #navbar{
+ /* #navbar{
     background-color: black;
 }
 
 #textNavbar{
     color: white;
-}
+} */
 #line{
     border-top: 7px solid #000;
     padding-top: 23px;
@@ -130,18 +130,6 @@ font-size: 51px;
 }
 
 
-#titleNavbar li a{
-    font-size: 18px;
-    font-weight: normal;
-    font-family: "Arnhem",Times,Courier,serif;
-line-height: 28px;
-color: white;
-}
-
-#titleNavbar li a:hover{
-    
-color: #f42535;
-}
 #titleP{
     font-size: 18px;
     font-weight: normal;
@@ -151,12 +139,15 @@ color: white;
 }
 
 #contenedor2{
-    
+    margin-top: 30px;
     margin-bottom: 72px;
 }
 #contenedor2 div {
     width: 200px;
     margin-right: 23px;
+}
+#contenedor3{
+    margin-top: 30px;
 }
 
 #contenedor3 div {
@@ -205,13 +196,19 @@ margin-bottom: 57px;
 }
 
 #featureText{
-    margin: 40px 0 0 0;
-}
+    margin: 50px 0 15px 0;
 
+}
+#iconos div a{
+    color: #fff;
+}
 #featureText p:hover{
     color: #f42535;
 }
-
+#logoImg{
+    /* position: fixed; */
+width: 140px;
+}
 
 #title6{
     font-family: "calibre",Helvetica,Arial,sans-serif;
@@ -311,4 +308,129 @@ color: #f42535;
 
 #footer div ul li:hover{
     color:#f42535;
+}
+
+/* nuevo */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.section-1 {
+	text-align: center;
+	margin: auto;
+	/* width: 100%; */
+	background-size: cover;
+	/* height: 100vh; */
+	background-position: center;
+    position: relative;
+}
+header {
+	background-color: #000;
+	display: flex;
+	padding: 20px 20px 20px 20px;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: 500ms;
+}
+nav {
+	margin:auto;
+}
+nav a {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #fff;
+	transition: 200ms;
+
+	letter-spacing: 0.015em;
+	font-size: 22px;
+	font-weight: normal;
+	font-family: "Arnhem",Times,Courier,serif;
+	line-height: 28px;
+	color: white;
+}
+.bgc nav a:hover {
+	color: #f25;
+    text-decoration: none;
+}
+
+nav a:hover {
+	color: #f25;
+    text-decoration: none;
+}
+.logo {
+    margin-top: 0px;
+	flex: 1;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #fff;
+	font-family: "Arnhem",Times,Courier,serif;
+	font-weight: normal;
+
+    letter-spacing: 0.015em;
+margin-bottom: 0;
+}
+
+#logoImg{
+width: 140px;
+background-repeat: no-repeat;
+background-size: cover;
+/* height: 100%; */
+background-position: center;
+}
+.bgc {
+	background: #000;
+	padding: 20px;
+}
+.bgc .logo {
+	font-size: 0;
+	color: #fff;
+}
+.bgc nav a {
+	color: #fff;
+}
+
+.bgc #logoImg{
+	width: 100px;
+	/* background-size: 69%; */
+}
+
+.bgc #left {
+	padding-top: 0;
+    padding-right: 230px;
+}
+.bgc #right {
+	padding-top: 0;
+    padding-left: 230px;
+}
+
+
+#right{
+	padding-top:60px;
+	padding-left: 159px;
+}
+
+#left{
+	padding-top:60px;
+	padding-right: 159px;
+}
+
+
+@media (max-width: 769px){
+	header {
+		flex-direction: column;
+		padding: 20px;
+        padding-bottom: 120px;
+	}
+	nav {
+		padding: 15px;
+		margin: 0px;
+	}
 }
