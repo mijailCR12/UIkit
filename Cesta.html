@@ -22,8 +22,9 @@
 <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; end: !.uk-height-large; "
     style="position: relative;">
     <header class="uk-navbar-container" uk-sticky="media: 960" style="background-color: black;">
-        <div style="background-color: black; text-align: center; align-items: left; align-self: left; align-content: left;">
-            <img id="logoImg" src="./assets/img/ComputerStoreIcon.png">
+        <div
+            style="background-color: black; text-align: center; align-items: left; align-self: left; align-content: left;">
+            <a href="index.html"><img id="logoImg" src="./assets/img/ComputerStoreIcon.png"></a>
         </div>
         <nav>
             <a uk-icon="home" style="color: #eee; "></a>
@@ -37,14 +38,14 @@
         </nav>
         <div
             style="background-color: black; text-align: center; align-items: right; align-self: right; align-content: right;">
-            <button class="uk-button uk-button-default">
-                <a href="#">Carrito</a>
-                <a uk-icon="cart" style="color: #eee; "></a>
-            </button>
+            <a href="Cesta.html">
+                <button class="uk-button uk-button-default">
+                    Carrito
+                    <a uk-icon="cart" style="color: #eee; "></a>
+                </button>
+            </a>
         </div>
-</div>
-</header>
-
+    </header>
 </div>
 
 <div style="margin-left: 0px;
@@ -151,7 +152,7 @@ margin-right: 0px;">
             </div>
         </div>
         <footer id="footer" style="margin: 0; width: 100%;">
-            <div class="uk-section ">
+            <div class="uk-section">
                 <div class="uk-text-left" uk-grid>
                     <div class="uk-width-auto@m" id="iconos">
                         <ul class="uk-list">
@@ -162,53 +163,63 @@ margin-right: 0px;">
                     </div>
                     <div class="uk-width-2-3@m">
                         <div class="uk-card  uk-card-body uk-padding-remove">
-                            <div class="uk-child-width-expand@s" uk-grid> 
+                            <div class="uk-child-width-expand@s" uk-grid>
 
                                 <div class="uk-padding-remove">
                                     <ul class="uk-list">
                                         <li>
                                             <h3 style="color:white; ">Contactenos</h3>
                                         </li>
+                                        <li>
+                                            <div style="background-color: black;">
+                                                <a href="index.html"><img id="logoImg"
+                                                        src="./assets/img/ComputerStoreIcon.png"></a>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
 
-                                <div class="uk-padding-remove">
-                                    <ul class="uk-list">
-                                        <li style="color: rgb(28, 28, 193);">Telefono</li>
-                                        <li>+000 000-0000</li>
-                                    </ul>
+                                <div class="uk-padding-remove uk-flex">
+                                    <div><span style="color: rgb(28, 28, 193);" uk-icon="icon: whatsapp; ratio: 3.5"></span></div>
+                                    <div>
+                                        <ul class="uk-list">
+                                            <li style="color: rgb(28, 28, 193);">Telefono</li>
+                                            <li>+000 000-0000</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="uk-padding-remove">
-                                    <ul class="uk-list">
-                                        <li style="color: rgb(28, 28, 193);">Facebook</li>
-                                        <li>Media Inquiries</li>
-                                    </ul>
+                                <div class="uk-padding-remove uk-flex">
+                                    <div><span style="color: rgb(28, 28, 193);" uk-icon="icon: facebook; ratio: 3.5"></span></div>
+                                    <div>
+                                        <ul class="uk-list">
+                                            <li style="color: rgb(28, 28, 193);">Facebook</li>
+                                            <li>Media Inquiries</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="uk-padding-remove">
-                                    <ul class="uk-list">
+                                <div class="uk-padding-remove uk-flex">
+                                    <div><span style="color: rgb(28, 28, 193);" uk-icon="icon: mail; ratio: 3.5"></span></div>
+                                    <div><ul class="uk-list">
                                         <li style="color: rgb(28, 28, 193);">Correo</li>
                                         <li>correo@correo.com</li>
-                                    </ul>
+                                    </ul></div>
+                                </div>
+                                <div class="uk-width-expand@m uk-padding-remove-left">
+                                    <div class="uk-card uk-card-body uk-padding-remove uk-text-left">
+                                        <ul class="uk-list">
+                                            <li>©Copyright 2023-2030</li>
+                                            <li>Tienda_computadoras.com</li>
+                                            <li>Powered by the EIF507 project</li>
+                                            <li>All rights reserved</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="uk-width-expand@m uk-padding-remove-left">
-                        <div class="uk-card uk-card-body uk-padding-remove uk-text-left">
-                            <ul class="uk-list">
-                                <li>©Copyright 2023-2030</li>
-                                <li>Tienda_computadoras.com</li>
-                                <li>Powered by the EIF507 project</li>
-                                <li>All rights reserved</li>
-                            </ul>
-                        </div>
-
-                    </div>
                 </div>
             </div>
-
-    </div>
-    </footer>
+        </footer>
 </div>
 </div>
 
